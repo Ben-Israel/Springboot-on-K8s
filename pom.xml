@@ -57,7 +57,7 @@
 				<artifactId>git-commit-id-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>jenkins-docker-k8s</finalName>
+		<finalName>springboot-on-k8s</finalName>
 	</build>
 
 </project>
