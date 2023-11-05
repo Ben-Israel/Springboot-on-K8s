@@ -8,8 +8,8 @@ spec:
     app.kubernetes.io/name: springboot-on-k8s
   ports:
     - protocol: TCP
-      port: 80  
-      targetPort: 80
+      port: 8080  
+      targetPort: 8080
 
 
 ---
@@ -34,4 +34,4 @@ spec:
       - name: springboot-on-k8s
         image: benisrael/springboot-on-k8s:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
